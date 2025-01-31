@@ -17,7 +17,9 @@ This is a simple Tkinter-based document sharing platform connected to a MySQL da
 - **Delete Documents**: Admin can delete documents by entering the document ID.
 
 ---
+ TO RUN LOCALLY
 
+ 
 Prerequisites
 Before you begin, ensure you have the following installed:
 
