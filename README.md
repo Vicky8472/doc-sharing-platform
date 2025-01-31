@@ -49,7 +49,9 @@ userdb
 
 Create the required tables in each database:
 
-----
+
+
+--------
 For the admin database:
    CREATE TABLE docs (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -67,6 +69,8 @@ CREATE TABLE user (
     email VARCHAR(255)
 );
 -----
+
+
 
 Step 4: Configure Database Connection
 1.Open the following Python files in your project:
