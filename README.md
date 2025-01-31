@@ -49,20 +49,24 @@ userdb
 
 Create the required tables in each database:
 
+----
 For the admin database:
    CREATE TABLE docs (
     id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(255) NOT NULL,
     description TEXT
 );
+---
 
 For the userdb database:
-   CREATE TABLE user (
+----
+CREATE TABLE user (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(255) UNIQUE NOT NULL,
     password VARCHAR(255) NOT NULL,
     email VARCHAR(255)
 );
+-----
 
 Step 4: Configure Database Connection
 1.Open the following Python files in your project:
@@ -80,13 +84,14 @@ ud2.py
 ud3.py
 
 2.Update the database connection details in each file with your MySQL credentials. Here’s an example:
+ --------
  connection = pymysql.connect(
     host="localhost",
     user="your_mysql_username",
     password="your_mysql_password",
     database="userdb"  # Use "admin" for admin database connection
 )
-
+---------
 Step 5: Run the Application
 To start the user interface, run:
 python index.py
