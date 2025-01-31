@@ -88,8 +88,11 @@ ud2.py
 
 ud3.py
 
+
 2.Update the database connection details in each file with your MySQL credentials. Here’s an example:
+
  --------
+ 
  connection = pymysql.connect(
     host="localhost",
     user="your_mysql_username",
