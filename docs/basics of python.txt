@@ -1,0 +1,51 @@
+
+Basics of Python Programming
+Python is a versatile and high-level programming language known for its simplicity and readability. It is widely used in fields such as web development, data science, machine learning, automation, and more. Below is an introduction to the key concepts in Python programming.
+
+1. Structure of a Python Program
+A Python program typically starts with defining functions and executing instructions. The main() function is optional, and Python programs can run without it. Code is usually written in blocks that are indented to indicate scope, unlike many other languages that use curly braces.
+
+2. Data Types
+Python has several built-in data types, including:
+
+int – Integer type for whole numbers.
+float – Floating-point type for decimal numbers.
+str – String type for textual data.
+bool – Boolean type for True or False values.
+Python is dynamically typed, meaning you don’t need to declare the data type of a variable explicitly.
+
+3. Variables
+Variables in Python are used to store data values. You don’t need to specify the type when declaring a variable. Python will infer the type based on the value assigned to the variable.
+
+4. Operators
+Python supports several operators:
+
+Arithmetic Operators: For mathematical operations like addition, subtraction, multiplication, division, and modulus.
+Relational Operators: For comparisons like equality, greater than, and less than.
+Logical Operators: For logical operations like and, or, and not.
+Assignment Operators: Used to assign values to variables.
+5. Control Structures
+Python supports control structures for decision-making and loops:
+
+If-else: Executes code based on conditions.
+Loops: Python offers for and while loops to repeat tasks.
+6. Functions
+Functions are used to define reusable blocks of code that perform specific tasks. Python functions are declared using the def keyword.
+
+7. Lists, Tuples, and Dictionaries
+Python provides several collection data types:
+
+Lists: Ordered, mutable collections of items.
+Tuples: Ordered, immutable collections.
+Dictionaries: Unordered collections of key-value pairs.
+8. Object-Oriented Programming
+Python supports object-oriented programming (OOP). You can define classes and create objects to represent real-world entities.
+
+9. Input and Output
+print() is used to output data.
+input() is used to take input from the user.
+10. Comments
+Python uses # for single-line comments and triple quotes (""" or ''') for multi-line comments.
+
+Conclusion
+Python is an easy-to-learn language with powerful capabilities. Its simplicity, combined with rich libraries and support for multiple paradigms, makes Python a popular choice for both beginners and professionals across various domains.

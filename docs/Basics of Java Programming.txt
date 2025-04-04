@@ -1,0 +1,46 @@
+Basics of Java Programming
+Java is a high-level, object-oriented programming language known for its portability, scalability, and security. It is widely used in building large-scale enterprise applications, Android apps, and web-based applications.
+
+1. Structure of a Java Program
+A basic Java program consists of classes and methods. Every Java application must have a main() method, which serves as the entry point for execution. Java code is usually enclosed in classes, and these classes contain methods that define the program's behavior.
+
+2. Data Types
+Java supports a range of data types:
+
+Primitive types: int, float, double, char, boolean
+Non-primitive types: String, Arrays, and custom classes.
+Java is a statically typed language, meaning you must declare the type of each variable explicitly.
+
+3. Variables
+Variables are used to store data. In Java, you must declare a variable with a specific type before using it.
+
+4. Operators
+Java supports the following operators:
+
+Arithmetic Operators: For mathematical operations.
+Relational Operators: For comparisons like equality and inequality.
+Logical Operators: For logical operations (&&, ||, !).
+Assignment Operators: For assigning values to variables.
+5. Control Structures
+Java includes various control structures:
+
+If-else: For decision-making.
+Switch: For handling multiple conditions.
+Loops: Java provides for, while, and do-while loops for iteration.
+6. Functions (Methods)
+In Java, functions are called methods. Methods are defined within a class and can be called using an object or directly using a class name if they are static.
+
+7. Object-Oriented Programming
+Java is a fully object-oriented language. You can create classes to represent objects, and those classes can have properties (fields) and behaviors (methods). Java supports concepts like inheritance, polymorphism, encapsulation, and abstraction.
+
+8. Arrays
+Arrays in Java are used to store multiple values in a single variable. Java arrays are fixed in size and can store elements of the same type.
+
+9. Input and Output
+System.out.println() is used for displaying output.
+Scanner class is used to take user input.
+10. Comments
+Java uses // for single-line comments and /* */ for multi-line comments.
+
+Conclusion
+Java is a robust, platform-independent language with a rich set of libraries. It’s ideal for building scalable, secure applications and remains one of the most widely used programming languages in the world.
